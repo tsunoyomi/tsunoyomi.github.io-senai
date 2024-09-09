@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contate nós</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:linear-gradient(to bottom, #008F8C 60%, #4cb04f) ;
+        }
+        form{
+            width: 300px;
+            border-radius: 3px;
+            background-color: #fff;
+            padding: 20px;
+        }
+        form h1{
+            font-size: 22px;
+            color: #4cb04f;
+            margin-bottom: 20px;
+        }
+        form .area-input{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            position: relative;
+            height: 35px;
+            margin-top: 20px;
+        }
+        form .area-input label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 12px;
+            transform: translateY(-70%);
+        }
+        form .area-input input{
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 2px;
+            border-bottom: 2px solid #008F8C;
+            color: #008F8C;
+            outline: none;
+        }
+        form .area-input textarea{
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 2px;
+            border-bottom: 2px solid #008F8C;
+            resize: none;
+            outline: none;
+        }
+        form button{
+            margin-top: 20px;
+            width: 100%;
+            height: 35px;
+            background-color: #008F8C;
+            color: #fff;
+            border: none;
+            transition: .3;
+            cursor: pointer;
+        }
+        form button:hover{
+            filter: brightness(.9);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Contate Nós</h1>
+        <div class="area-input">
+            <label for="">Nome Completo</label>
+            <input type="text">
+        </div>
+        <div class="area-input">
+            <label for="">Email</label>
+            <input type="text">
+        </div>
+        <div class="area-input">
+            <label for="">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30">
+            </textarea>
+        </div>
+        <button>Enviar</button>
+    </form>
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

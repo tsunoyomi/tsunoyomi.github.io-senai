@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #008F8C;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-dogs{
+    background-color:#008F8C;
+    
+}
+
+header {
+    background-image:linear-gradient(to right #079BAE, #6ce787);
+    font-variant:initial;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #020202;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #050000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #010101; /* Cor de texto ao passar o mouse */
+    text-shadow: 0 0 5px rgba(150, 150, 150, 0.8); /* Efeito de brilho */
+    text-decoration: underline;
+}   
+
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #0e0909;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.7em 1.5em;
+    background: #4cb04f;
+    color: #080808;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #f1f1f1;
+}
+
+section {
+    padding: 2em 0;
+    
+
+    
+}
+
+section#hero{
+    background-image: url(parallax\ efect.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #030603;
+}
+
+.dog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+.dog-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px solid black;
+    padding: 1em;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div.container1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.containerabout {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em uma coluna */
+    justify-content: center; /* Alinha verticalmente */
+    align-items: center; /* Alinha horizontalmente */
+    background-color: #4cb04f;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: 320px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align:left;
+}
+
+@media screen and ( min-width:600px){
+
+
+    .containerabout {
+        width: 600px;
+    }
+}   
+div.containercontact{
+    background-color:#008F8C;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin: auto;
+  
+}
+   
+.dog-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-secondary {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-secondary:hover {
+    background: #45a049;
+}
+
+.testimonial {
+    background:#4cb04f;
+    color: #000000;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial blockquote {
+    margin: 0;
+    font-style: italic;
+}
+
+form {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2em;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.7em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
